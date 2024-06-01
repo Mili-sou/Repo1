@@ -1,5 +1,19 @@
 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
 
+#assignment 7
+terminal:-
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+nginx -v
+sft :-
+open file in client
+terminal
+cd /
+cd /var/www
+sudo chmod 777 html
+open sft window and open directory /var/www
+
 #!/bin/bash
 apt-get update
 apt-get install -y nginx
@@ -11,8 +25,8 @@ apt-get install -y nodejs
 cd /var/www
 sudo chmod 777 html
 cd html
-sudo apt-get update && sudo apt-get upgrade
-
+sudo apt-get update
+sudo apt-get upgrade
 
 sudo apt-get install nginx
 nginx -v
