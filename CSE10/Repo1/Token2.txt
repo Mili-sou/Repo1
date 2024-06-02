@@ -89,3 +89,7 @@ location / {
                 proxy_set_header Host $host;
                 proxy_cache_bypass $http_upgrade;
         }
+
+cd Repo1->cd CSE10->cd Repo1
+sudo systemctl restart nginx
+node index.js
