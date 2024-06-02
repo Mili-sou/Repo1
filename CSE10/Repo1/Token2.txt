@@ -26,6 +26,18 @@ git push -u origin master
 git init
 git clone <Repository_Path>
 
+ass-9:-
+pwd
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash
+sudo apt install nodejs
+node --version
+git clone <your repository path>
+npm install
+node index.js
+
 #!/bin/bash
 apt-get update
 apt-get install -y nginx
