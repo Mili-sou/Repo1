@@ -35,6 +35,7 @@ curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash
 sudo apt install nodejs
 node --version
 git clone <your repository path>
+cd <Repo1>->cd <CSE10>->cd <Repo1>
 npm install
 node index.js
 
