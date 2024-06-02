@@ -69,7 +69,7 @@ pwd
 sudo apt-get update
 sudo apt-get update
 sudo apt-get install nginx
-curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash –
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash 
 sudo apt install nodejs
 git clone <your repository path>
 cd Repo1->cd CSE10->cd Repo1
