@@ -67,7 +67,7 @@ sh infi.sh
 ass 12:-
 pwd
 sudo apt-get update
-sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install nginx
 curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash 
 sudo apt install nodejs
