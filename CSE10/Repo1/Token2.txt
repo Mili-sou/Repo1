@@ -17,7 +17,7 @@ open sft window and open directory /var/www/html
 #ass-8:-
 git init
 dir
-git add
+git add .
 git status
 git commit -m "done"
 git remote add origin <the_repository_path_name>
