@@ -54,32 +54,15 @@ npm install
 node index.js
 
 
-cd /var/www
-sudo chmod 777 html
-cd html
-sudo apt-get update
-sudo apt-get upgrade
-
-sudo apt-get install nginx
-nginx -v
-
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt install nodejs
-node -v
-
-
-git clone https://github.com/sudip7407/Repo1.git
-cd Repo1
-
-npm install
-node index.js
-
+ass 11:-
+sudo nano infi.sh
 #!/bin/bash
 while true
 do
         echo "Loop running"
 done
-
+sudo chmod 777 infi.sh 
+sh infi.sh
 
 
 location / {
