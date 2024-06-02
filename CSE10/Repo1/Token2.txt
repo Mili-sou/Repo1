@@ -1,6 +1,6 @@
 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
 
-#assignment 7
+#assignment 7:-
 terminal:-
 sudo apt-get update
 sudo apt-get upgrade
@@ -12,7 +12,19 @@ terminal
 cd /
 cd /var/www
 sudo chmod 777 html
-open sft window and open directory /var/www
+open sft window and open directory /var/www/html
+
+#ass-8:-
+git init
+dir
+git add
+git status
+git commit -m "done"
+git remote add origin <the_repository_path_name>
+git push -u origin master
+
+git init
+git clone <Repository_Path>
 
 #!/bin/bash
 apt-get update
