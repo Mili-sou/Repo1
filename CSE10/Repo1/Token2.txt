@@ -39,6 +39,7 @@ cd <Repo1>->cd <CSE10>->cd <Repo1>
 npm install
 node index.js
 
+#ass 10:-
 #!/bin/bash
 apt-get update
 apt-get install -y nginx
@@ -47,6 +48,12 @@ systemctl enable nginx
 apt-get install -y git
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 apt-get install -y nodejs
+git clone <repository_name>
+cd Repo1->cd CSE10->cd Repo1
+npm install
+node index.js
+
+
 cd /var/www
 sudo chmod 777 html
 cd html
@@ -73,18 +80,6 @@ do
         echo "Loop running"
 done
 
-#!/bin/bash
-apt-get update
-apt-get install -y nginx
-systemctl start nginx
-systemctl enable nginx
-apt-get install -y git
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-apt-get install -y nodejs
-git clone https://github.com/sudip7407/Repo1.git
-cd Repo1
-npm install
-node index.js
 
 
 location / {
